@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ymvw1lb+0ih=d7)uwq1f4z+-vi5gha)z)l_+9-4t7&6h=rd0av'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG',default=True, cast=bool)
+DEBUG = True
 #EMAIL_PORT = config('EMAIL_PORT', cast=int)
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = []
 
 
 # Application definition
